@@ -1,0 +1,66 @@
+LOC_CAT,LOC_CODE,LOC_SUB,CODE_DES,SUB_DES,LOC_DES,LOC_TYPE
+A,1,0,Continent,,Werelddeel,A1.0
+A,2,0,Country group,,Groep,A2.0
+A,3,0,Country,,Land,A3.0
+A,5,1,Water area,Sea,Zee,A5.1
+A,5,2,Water area,Lake,Meer,A5.2
+A,6,0,Fuzzy area,,Fuzzy gebied,A6.0
+A,6,1,Fuzzy area,Tourist area,Toeristisch gebied,A6.1
+A,6,5,Fuzzy area,Meteorological area,Weergebied,A6.5
+A,6,6,Fuzzy area,Parking area,Carpoolparkeergebied,A6.6
+A,6,7,Fuzzy area,Parking area,P&R gebied,A6.7
+A,6,8,Fuzzy area,Parking area,Parkeergebied,A6.8
+A,6,9,Fuzzy area,Population cluster,Woonkern,A6.9
+A,7,0,Order 1 area,,Landsdeel,A7.0
+A,8,0,Order 2 area,,Provincie,A8.0
+A,9,0,Order 3 area,,Stadsgewest,A9.0
+A,10,0,Order 4 area,,Gemeente,A10.0
+A,11,0,Order 5 area,,Wijk,A11.0
+A,12,0,Application region,Application region 0,RWS Regionale Dienst,A12.0
+A,12,1,Application region,Application region 1,RWS-Wegendistrict,A12.1
+A,12,2,Application region,Application region 2,RWS Rayon,A12.2
+L,1,1,Road,Motorway,Snelweg,L1.1
+L,1,2,Road,1st Class road,Eerste klasse weg,L1.2
+L,1,3,Road,2nd class road,Tweede klasse weg,L1.3
+L,2,1,Ring-road,Ring motorway,Ringweg,L2.1
+L,2,2,Ring-road,Other Ring-road,Stadsringweg,L2.2
+L,3,0,Order 1 segment,,Orde 1 segment,L3.0
+L,4,0,Order 2 segment,,Orde 2 segment,L4.0
+L,6,1,Vehicular link,Ferry,Veerdienst,L6.1
+P,1,1,Junction,Motorway intersect.,Knooppunt,P1.1
+P,1,2,Junction,Motorway triangle,Knooppunt (triangle),P1.2
+P,1,3,Junction,Motorway junction,Afrit,P1.3
+P,1,9,Junction,Giratory,Verkeersplein,P1.9
+P,1,11,Junction,Cross-roads,Kruising,P1.11
+P,1,12,Junction,T-junction,Aansluiting,P1.12
+P,1,14,Junction,Connection,Verbindingsweg,P1.14
+P,2,1,Intermediate point,Distance marker,Hectometersprong,P2.1
+P,3,1,Other landmark point,Tunnel,Tunnel,P3.1
+P,3,2,Other landmark point,Bridge,Brug,P3.2
+P,3,3,Other landmark point,Service area,Parkeerplaats (service),P3.3
+P,3,4,Other landmark point,Rest area,Parkeerplaats (rest),P3.4
+P,3,6,Other landmark point,Carpool point,Carpoolpunt,P3.6
+P,3,7,Other landmark point,Park en ride site,P&R terrein,P3.7
+P,3,8,Other landmark point,Car park,Parkeerterrein,P3.8
+P,3,12,Other landmark point,Petrol station + kio,Tankstation,P3.12
+P,3,14,Other landmark point,Border / frontier,Grensovergang,P3.14
+P,3,16,Other landmark point,Toll plaza,Tol,P3.16
+P,3,17,Other landmark point,Ferry terminal,Veerterminal,P3.17
+P,3,18,Other landmark point,Harbour,Haven,P3.18
+P,3,27,Other landmark point,Airport,Vliegveld,P3.27
+P,3,37,Other landmark point,Place name,Bebouwde kom,P3.37
+P,3,38,Other landmark point,Dam,Dam,P3.38
+P,3,39,Other landmark point,Dike,Dijk,P3.39
+P,3,40,Other landmark point,Aquaduct,Aquaduct,P3.40
+P,3,41,Other landmark point,Lock,Sluis,P3.41
+P,3,43,Other landmark point,Railroad crossing,Spoorwegovergang,P3.43
+P,3,45,Other landmark point,Ferry,Veer,P3.45
+P,3,46,Other landmark point,Industrial area,Industriegebied,P3.46
+P,3,47,Other landmark point,Viaduct,Viaduct,P3.47
+P,5,0,Other landmark point,Other POI,Overige POI,P5.0
+P,5,1,Parking,Underground garage,Ondergrondse garage,P5.1
+P,5,2,Parking,Urban Car Park,Stadsparkeerterrein,P5.2
+P,5,3,Parking,Urban Parking garage,Stadsparkeergarage,P5.3
+P,5,4,Parking,Carpool point,Carpoolpunt,P5.4
+P,5,5,Parking,Park en ride site,Stads P&R terrein,P5.5
+P,5,6,Parking,Rest area,Rustplaats,P5.6
